@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box y CSS Grid</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Conoce sobre Flex Box, CSS Grid</h1>
+    </header>
+    
+        <nav>
+        <div id="menu">
+            <ul class="nav">
+                <li><a href="file:///C:/Users/cari8/Documents/Cari/UNAD/Quinto%20Semestre/Dise%C3%B1o%20de%20Sitios%20Web/Fase%202/DSWCarinaPrieto/fase3/index.html">Inicio</a></li>
+                <li><a href="">Temas</a>
+                     <ul>
+                        <li><a href="file:///C:/Users/cari8/Documents/Cari/UNAD/Quinto%20Semestre/Dise%C3%B1o%20de%20Sitios%20Web/Fase%202/DSWCarinaPrieto/fase3/temas.html">Tema 1</a></li>
+                   
+                         <li><a href="file:///C:/Users/cari8/Documents/Cari/UNAD/Quinto%20Semestre/Dise%C3%B1o%20de%20Sitios%20Web/Fase%202/DSWCarinaPrieto/fase3/tema2.html">Tema 2</a></li>
+                    </ul>
+                 </li>
+                <li><a href="">Recursos Digitales</a>
+                     <ul>
+                         <li><a href="">Podcasts</a></li>
+                            <li><a href="">Videos</a></li>
+                     </ul>
+                 </li>
+                <li><a href="">Aprendizaje</a>
+                     <ul>
+                         <li><a href="">Actividad 1</a></li>
+                      
+                        <li><a href="">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="file:///C:/Users/cari8/Documents/Cari/UNAD/Quinto%20Semestre/Dise%C3%B1o%20de%20Sitios%20Web/Fase%202/DSWCarinaPrieto/fase3/autor.html">Autor</a></li>
+            </ul>
+       
+        </div>
+        </nav> 
+        <div class="contenedor">
+    <section>
+        <br><br><br>
+        
+        <br>
+        <h2>Propósito del Sitio</h2>
+        <br>
+        <p>
+            En este sitio se encuentra una descripción y el manejo del Flex Box y CSS Grid, encontrará conceptos de cada
+            uno de ellos, su funcionalidad, para qué están diseñados y cuál es su utilidad.
+
+            Se podrá observar lo interasante de estas funciones que se podrán utilizar para el incluirlas en el diseño
+            de un sitio web y que tengas más opciones en el momento de la creación y aplicación, aprovecharemos cada una
+            de las herramientas dadas por estas funciones.
+        </p>
+
+        <article>
+            <br>
+            <h3>Flexbox</h3>
+            <br>
+            <h1>Conceptos Básicos de felxbox</h1>
+            <br>
+            <p>
+                El módilo de Caja Flexible que es llamado flexbox es un diseño unidimencional de layout, también es
+                utilizado como método que distribuye el espacio entre los ítems de una interfaz y la capacidad de
+                alineación. Cuando se habla de unidimensional, de indica que el flexbox maneja el layout en una sola
+                dimensión a la vez, ya sea como una fila o una columna. Esto hace un contraste con el modelo
+                bidimencional Grid Layout de CSS el cual realiza un control entre filas y columnas.
+
+
+                <br>Conceptos Básicos de flexbox. MDN Web Docs. Recuperado de <a
+                    href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Referencia</a>
+
+            </p>
+            
+            <p>
+                <br>
+                Actualmente felxbox es compatible con los navegadores más importantes y diferentes versiones de los
+                mismos. En algunos es necesario utilizar prefijos css para que se genere un mejor funcionamiento. Si se
+                llega a presentar algún pronblema con las versiones anteriores de sus navegadores se puede probar el
+                Autoprefixer.
+                <br>
+                Hasta el momento son conocidos cuatro modos para disponer los elementos:
+                <br><br><br>
+                – Elementos en línea (display:inline)
+                <br>
+                – Elementos en bloque (display:block)
+                <br>
+                – Elementos en tabla (display:table)
+                <br>
+                – Tipos de posición (position:absolute/relative/fixed)
+                <br><br>
+                El W3C define a esta estructura como un “flujo flexible” de elementos en dirección
+                (arriba/abajo/izquierda/derecha) y tamaño (anchura/altura) según los ejes principal (horizontal) y
+                transversal (vertical).
+            
+            <br>
+            Flexbox CSS3. Tutorial en español. Descripción y ejemplos HTML. Madrid - España. Yunbit. Recuperado de <a
+                href="https://www.yunbitsoftware.com/blog/2017/03/30/flexbox-css3-tutorial-descripcion-ejemplos-html/">Referencia</a>
+            </p>
+            <br>
+            <h1>CSS Grid Layout</h1>
+            <br>
+            <p>
+                Tiene funciones de diseño dirigidas para el desarrollo de aplicaciones web. Éste puede ser utilizado
+                multiples diseños. También es destacado porque permite dividir una página en áreas o regiones
+                principales, define la relación en términos de tamaño, posición y capas entre las partes de un cotrol
+                que es contruido a partir de hatml nativo.
+                El Grid Loyout también permite alinear elementos en columnas y filas, pero no solo para ello es
+                utilizado el Grid Loyout, es posible realizar muchos más diseños y de una forma más sencilla que con las
+                tablas.
+                <br>
+                CSS Grid Layout. MDN Wev Docs. Recuperado de <a
+                    href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout">Referencia</a>
+            <br>
+            Cuando hablamos de crear un sitio web, la mayor parte de del trabajo consiste en disponer distintos
+            elementos que lo componen. El diseño debe ser algo que atraiga. En CSS las hojas de estilo en cascada
+            constituye una herramienta para diseñar sitios web con ciertas características, mientras que en HTML muestra
+            un contenido de manera rudimentaria y css es apto para diseños más complejos.
+            <br>
+            En el mundo del internet móvil encontramos un inumerable de desafíos para los diseñadores web, debido a esta
+            variedad de diseños es muy complejo saber cuál es el formato que tiene la pantalla en la que se va a
+            visualizar el contenido web. Por esto es tan importante los elementos individuales como cajas de texto,
+            gráficos, elementos interactivos, sean destribuidos de manera independiente y de forma muy clara, teniento
+            muy presente las respectivas condiciones de espacio dadas por la pantalla.
+            A diferencia del Felx box, que como mencionamos, es unidimensional, CSS Grid ofrece dos diemnsiones para la
+            colocación de los objetos, porque en lugar de tener solo un eje, permite la creación de rejillas con filas y
+            columnas.
+            <br>
+
+            </p>
+
+
+        </article>
+        <br><br>
+
+    </section>
+    <aside class="perfil">
+        <a href="https://m.facebook.com/UniversidadUNAD/">facebook</a>
+        <h3>Pagina Principal Universidad Nacional Abierta y a Distancia - UNAD</h3>
+        
+
+    </aside>
+    </div>
+    <footer>
+        <address>
+            <p>
+                Correo: caprietoca@unadvirtual.edu.co
+                <br>
+                Skype: cari85231
+                <br>
+                Fecha de Actualización: 06/03/2021
+            </p>
+        </address>
+    </footer>
+
+</body>
+
+</html>
